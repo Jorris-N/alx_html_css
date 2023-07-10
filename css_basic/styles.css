@@ -7,6 +7,9 @@ main{
     flex-direction: row;
     flex: auto;
 }
+a{
+    text-decoration: none;
+}
 article{
     flex: 2;
     overflow-y: auto;
@@ -14,4 +17,20 @@ article{
 aside{
     flex: 1;
     overflow-y: auto;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 4px;
+    border-radius: 15%;
+}
+.flex:hover{
+    color: yellowgreen;
+    transition: ease-in-out 300ms;
 }
